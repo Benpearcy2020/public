@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Tesla Powerwall 3 Proposal | Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #272727; color: #FFFFFF; } /* All other text #FFFFFF */
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 350px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .text-primary-heading { color: #B1FDFB; } /* Important text #B1FDFB */
+        .text-primary-content { color: #FFFFFF; } /* Other text #FFFFFF */
+        .text-secondary { color: #B1FDFB; } /* Already #B1FDFB */
+        .bg-primary { background-color: #272727; }
+        .bg-secondary { background-color: #B1FDFB; }
+        .border-primary { border-color: #272727; }
+        .stat-card {
+            background-color: #4A4A4A; /* Darker background for cards */
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #FFFFFF; /* Ensure text in stat cards is readable */
+        }
+        .icon-unicode { font-size: 2.5rem; line-height: 1; }
+        .accreditation-logo {
+            width: auto;
+            height: auto;
+            max-height: 40px;
+            max-width: 100px;
+            border-radius: 8px;
+            display: inline-block;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="container mx-auto p-4 md:p-8 max-w-5xl">
+
+        <header class="text-center mb-12 md:mb-16">
+            <div class="mb-6">
+                <img src="https://drive.google.com/thumbnail?id=1kZtnMUfizJo5hG9uxy_d8fvnxVtXJ-hR" alt="Vanadium Logo" class="w-48 md:w-64 h-auto mx-auto rounded-lg">
+            </div>
+            <h1 class="text-4xl md:text-5xl font-black text-primary-heading mb-2">Optimize Your Home's Energy</h1>
+            <p class="text-lg text-primary-content">A Personalised Proposal for Stuart Bennett at 111 The Hollow, Corsley, Warminster BA12 7PD</p>
+            <p class="text-sm text-primary-content">Project Number: 2039285402</p>
+        </header>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-20 text-center">
+            <div class="stat-card">
+                <p class="text-5xl font-extrabold text-secondary">68%</p>
+                <h3 class="text-lg font-semibold text-primary-content mt-2">Total Grid Independence</h3>
+                <p class="text-sm text-primary-content">with Powerwall 3</p>
+            </div>
+            <div class="stat-card">
+                <p class="text-5xl font-extrabold text-secondary">£2,168</p>
+                <h3 class="text-lg font-semibold text-primary-content mt-2">Estimated Annual Savings</h3>
+                <p class="text-sm text-primary-content">using stored off-peak energy</p>
+            </div>
+            <div class="stat-card">
+                <p class="text-5xl font-extrabold text-secondary">7.56</p>
+                <h3 class="text-lg font-semibold text-primary-content mt-2">Years to Payback</h3>
+                <p class="text-sm text-primary-content">for your investment</p>
+            </div>
+        </section>
+
+        <!-- Removed "Your Current Energy Profile" section as it's solar-centric -->
+
+        <section class="bg-[#4A4A4A] rounded-lg shadow-md p-6 md:p-8 mb-12 md:mb-20">
+            <div class="text-center mb-8">
+                   <h2 class="text-3xl font-bold text-primary-heading">The Solution: Tesla Powerwall 3 & Expansion</h2>
+                   <p class="text-md text-primary-content mt-2">Store affordable off-peak energy for use anytime, day or night, with expanded capacity.</p>
+            </div>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+                <div class="text-center text-primary-heading">
+                    <span class="icon-unicode">🔋</span>
+                    <p class="font-bold text-xl">27 kWh</p>
+                    <p class="text-primary-content">Total Usable Capacity</p>
+                </div>
+                <div class="text-center text-primary-heading">
+                    <span class="icon-unicode">⚡</span>
+                    <p class="font-bold text-xl">11.5 kW</p>
+                    <p class="text-primary-content">Continuous Power</p>
+                </div>
+                   <div class="text-center text-primary-heading">
+                       <span class="icon-unicode">🛡️</span>
+                       <p class="font-bold text-xl">10-Year</p>
+                       <p class="text-primary-content">Warranty</p>
+                   </div>
+            </div>
+        </section>
+
+        <!-- Removed "The Powerwall Transformation" section as it's solar-centric -->
+
+        <section class="mb-12 md:mb-20">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-primary-heading">Your Financial Case</h2>
+                <p class="text-md text-primary-content mt-2">A clear and rapid return on your investment.</p>
+            </div>
+               <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="stat-card">
+                    <h3 class="font-semibold text-primary-heading text-xl mb-4">Smart Tariff Savings</h3>
+                    <div class="chart-container h-64 max-h-64 rounded-lg p-4 shadow-md bg-[#4A4A4A]">
+                            <canvas id="tariffChart"></canvas>
+                    </div>
+                       <p class="text-primary-content text-sm mt-4">Powerwall charges with ultra-cheap off-peak electricity (£0.05/kWh) from your Fuse tariff, avoiding peak rates (£0.27/kWh) and saving you £0.22 on every kWh shifted.</p>
+                </div>
+                <div class="stat-card justify-start">
+                    <h3 class="font-semibold text-primary-heading text-xl mb-6">Investment Payback Timeline</h3>
+                       <div class="space-y-4 text-left w-full">
+                           <p><strong class="text-secondary">Battery System Cost:</strong> £12,552</p>
+                           <p><strong class="text-secondary">Fuseboard & Site Works:</strong> £3,838</p>
+                           <p><strong class="text-secondary">Total System Cost:</strong> £16,390</p>
+                           <p><strong class="text-secondary">Annual Savings:</strong> £2,168.10</p>
+                    </div>
+                    <div class="w-full mt-8">
+                        <p class="text-left text-sm font-semibold text-primary-content mb-2">Estimated Payback Period: 7.56 Years</p>
+                        <div class="w-full bg-gray-600 rounded-full h-4">
+                               <div class="bg-secondary h-4 rounded-full" style="width: 75.6%;"></div>
+                        </div>
+                        <div class="flex justify-between text-xs mt-1 text-primary-content">
+                            <span>Year 0</span>
+                            <span>Year 5</span>
+                            <span>Year 10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 md:mb-20">
+               <div class="text-center mb-8">
+                   <h2 class="text-3xl font-bold text-primary-heading">How Your Energy Flows with Powerwall</h2>
+                   <p class="text-md text-primary-content mt-2">A simple, automated system for energy optimisation.</p>
+               </div>
+               <div class="bg-[#4A4A4A] rounded-lg shadow-md p-6 md:p-8">
+                <div class="flex flex-col md:flex-row justify-center items-stretch gap-4">
+                    <!-- Step 1: Night: Off-Peak Charging -->
+                    <div class="flex flex-col items-center justify-between p-4 flex-1">
+                        <div>
+                            <span class="icon-unicode text-blue-400">🌙</span>
+                            <h4 class="font-bold text-primary-heading mt-2">Night: Off-Peak Charging</h4>
+                            <p class="text-sm text-primary-content mt-1">Your Powerwall charges with ultra-cheap off-peak grid energy, preparing for daytime use.</p>
+                        </div>
+                        <div class="text-5xl mt-4 text-secondary font-thin md:hidden">→</div> <!-- Mobile arrow -->
+                    </div>
+                    <!-- Arrow 1 for Desktop -->
+                    <div class="hidden md:flex items-center text-5xl text-secondary font-thin">→</div>
+
+                    <!-- Step 2: Daytime: Powerwall Use -->
+                    <div class="flex flex-col items-center justify-between p-4 flex-1">
+                        <div>
+                            <span class="icon-unicode text-yellow-500">☀️</span>
+                            <h4 class="font-bold text-primary-heading mt-2">Daytime: Powerwall Use</h4>
+                            <p class="text-sm text-primary-content mt-1">Powerwall discharges its stored energy to power your home, avoiding expensive peak rates from the grid.</p>
+                        </div>
+                        <div class="text-5xl mt-4 text-secondary font-thin md:hidden">→</div> <!-- Mobile arrow -->
+                    </div>
+                    <!-- Arrow 2 for Desktop -->
+                    <div class="hidden md:flex items-center text-5xl text-secondary font-thin">→</div>
+
+                    <!-- Step 3: Evening: Continued Powerwall Use -->
+                    <div class="flex flex-col items-center justify-between p-4 flex-1">
+                        <div>
+                            <span class="icon-unicode text-secondary">🏠</span>
+                            <h4 class="font-bold text-primary-heading mt-2">Evening: Continued Powerwall Use</h4>
+                            <p class="text-sm text-primary-content mt-1">Your home continues to draw from the Powerwall, maximizing savings during higher-cost periods.</p>
+                        </div>
+                        <!-- No arrow for the last step -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 md:mb-20 bg-[#4A4A4A] rounded-lg shadow-md p-6 md:p-8">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-primary-heading">Site Preparation & Electrical Upgrades</h2>
+                <p class="text-md text-primary-content mt-2">These works are integral to a seamless and efficient Powerwall installation.</p>
+            </div>
+            <div class="text-center text-primary-content">
+                <p class="text-lg mb-4"><strong>Detailed Works Included:</strong></p>
+                <ul class="list-disc list-inside mx-auto max-w-md text-left">
+                    <li><span class="text-secondary font-semibold">Fuseboard Upgrade:</span> Modernizing your electrical system is crucial for safely integrating your new Powerwall, ensuring smooth operation and compliance with current regulations.</li>
+                    <li><span class="text-secondary font-semibold">Demolition & Wall Construction:</span> This includes the demolition of the existing platform where the Powerwalls will be mounted, and the construction of a new, suitable wall to securely house your Powerwall system.</li>
+                </ul>
+                <p class="mt-6 text-sm">These specific works are included to ensure your Tesla Powerwall system is installed safely and operates efficiently.</p>
+            </div>
+        </section>
+
+           <footer class="text-center border-t border-[#4A4A4A] pt-8">
+               <h3 class="text-2xl font-bold text-primary-heading mb-4">Contact Vanadium Technologies</h3>
+               <p class="mt-2 text-primary-content">Phone: <a href="tel:03303201500" class="text-secondary hover:underline">0330 320 1500</a></p>
+               <p class="mt-2 text-primary-content">Email: <a href="mailto:tdibben@vanadiumtechnologies.co.uk" class="text-secondary hover:underline">tdibben@vanadiumtechnologies.co.uk</a></p>
+               <p class="mt-2 text-primary-content">Website: <a href="https://www.vanadiumtechnologies.co.uk" target="_blank" class="text-secondary hover:underline">www.vanadiumtechnologies.co.uk</a></p>
+
+             <div class="flex flex-wrap justify-center items-center gap-4 mt-8">
+                 <img class="accreditation-logo" src="https://drive.google.com/thumbnail?id=1Bew0Q6Xo6Rbgjp3o64922hUvnS2O6zUD" alt="MCS Accreditation">
+                 <img class="accreditation-logo" src="https://drive.google.com/thumbnail?id=1BfDD7R1Qg0LlgWFDBQhvH-bkFS9WBirv" alt="Napit Accreditation">
+                 <img class="accreditation-logo" src="https://drive.google.com/thumbnail?id=1BhljAzmRYyEmWIKyWVWa44EYIi6iTCHP" alt="RECC Accreditation">
+                 <img class="accreditation-logo" src="https://drive.google.com/thumbnail?id=1W37AcBHI-P1kzCEzDfujZSkb5qPecjsU" alt="IWA Insurance Backed">
+                 <img class="accreditation-logo" src="https://drive.google.com/thumbnail?id=1ax8o1DMZ3qRhP5RhZvCvQ0qCLAF-9vtp" alt="Tesla">
+             </div>
+          </footer>
+
+    </main>
+
+    <script>
+        const vanadiumColors = {
+            primary: '#272727',
+            secondary: '#B1FDFB',
+            background: '#272727',
+            importantText: '#B1FDFB',
+            otherText: '#FFFFFF',
+            chartFillGrey: '#606060', /* Lighter grey for better contrast on dark background */
+            chartGridLine: '#4A4A4A' /* For grid lines */
+        };
+
+        const chartTooltipOptions = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            if (Array.isArray(label)) {
+                                return label.join(' ');
+                            } else {
+                                return label;
+                            }
+                        }
+                    }
+                }
+            }
+        };
+
+        function wrapLabel(str, maxWidth) {
+            if (str.length <= maxWidth) return str;
+            const words = str.split(' ');
+            let lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + word).length > maxWidth) {
+                    lines.push(currentLine.trim());
+                    currentLine = '';
+                }
+                currentLine += word + ' ';
+            }
+            lines.push(currentLine.trim());
+            return lines;
+        }
+
+        // Removed selfConsumptionBeforeChart and gridIndependenceBeforeChart as they were solar-centric.
+        // Removed comparisonChart as it was solar-centric.
+
+        const tariffCtx = document.getElementById('tariffChart').getContext('2d');
+        new Chart(tariffCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Off-Peak Rate', 'Peak Rate'],
+                datasets: [{
+                    label: 'Cost per kWh (£)',
+                    data: [0.05, 0.27],
+                    backgroundColor: [vanadiumColors.secondary, vanadiumColors.otherText], /* Updated Peak Rate color to white */
+                    borderColor: [vanadiumColors.secondary, vanadiumColors.otherText], /* Updated Peak Rate color to white */
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                ...chartTooltipOptions,
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        ticks: { callback: value => '£' + value.toFixed(2), color: vanadiumColors.otherText },
+                        grid: { color: vanadiumColors.chartGridLine }
+                    },
+                    y: {
+                        ticks: { color: vanadiumColors.otherText },
+                        grid: { color: vanadiumColors.chartGridLine }
+                    }
+                },
+                plugins: { ...chartTooltipOptions.plugins, legend: { display: false } }
+            }
+        });
+    </script>
+
+</body>
+</html>
